@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: "./",     // 👈 ESTA LÍNEA ES LA QUE ARREGLA EL DEPLOY
+  base: "/",  // 👈 ESTA ES LA CORRECTA PARA VERCEL
 })
